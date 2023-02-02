@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:background_element="$media:index_bg">
+
+    <Text
+        ohos:id="$+id:text_title"
+        ohos:height="40vp"
+        ohos:width="match_parent"
+        ohos:text_alignment="center"
+        ohos:top_margin="50vp"
+        ohos:bottom_margin="15vp"
+        ohos:text="梵高风格迁移"
+        ohos:text_font="serif"
+        ohos:text_size="35fp"
+        />
+
+    <Image
+        ohos:id="$+id:real_image"
+        ohos:below="$id:text_title"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:top_margin="15vp"
+        ohos:image_src="$media:origin_img"
+        ohos:scale_mode="inside"
+
+        />
+
+    <Image
+        ohos:id="$+id:arrow"
+        ohos:below="$id:real_image"
+        ohos:height="40vp"
+        ohos:width="match_content"
+        ohos:image_src="$media:arrow"
+        ohos:scale_mode="inside"
+        ohos:top_margin="12vp"
+        ohos:bottom_margin="12vp"
+
+        />
+    <Image
+        ohos:id="$+id:fake_image"
+        ohos:below="$id:arrow"
+        ohos:height="200vp"
+        ohos:width="match_parent"
+        ohos:scale_mode="inside"
+        />
+
+    <Button
+        ohos:id="$+id:but_gallery"
+        ohos:below="$id:fake_image"
+        ohos:align_parent_left="true"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:top_margin="30vp"
+        ohos:left_margin="25vp"
+        ohos:background_element="$media:ic_ls_gal"
+        />
+    <Button
+        ohos:id="$+id:but_camara"
+        ohos:below="$id:fake_image"
+        ohos:align_parent_right="true"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:top_margin="30vp"
+        ohos:right_margin="25vp"
+        ohos:background_element="$media:ic_ls_cam"
+        />
+
+    <Button
+        ohos:id="$+id:but_migration"
+        ohos:below="$id:but_gallery"
+        ohos:align_parent_left="true"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:top_margin="15vp"
+        ohos:left_margin="25vp"
+        ohos:background_element="$media:ic_ls_mig"
+        />
+    <Button
+        ohos:id="$+id:but_back_to_main"
+        ohos:below="$id:but_camara"
+        ohos:align_parent_right="true"
+        ohos:height="50vp"
+        ohos:width="150vp"
+        ohos:top_margin="15vp"
+        ohos:right_margin="25vp"
+        ohos:background_element="$media:ic_ls_back"
+        />
+
+
+</DependentLayout>

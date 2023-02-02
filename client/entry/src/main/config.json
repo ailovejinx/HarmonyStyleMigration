@@ -1,0 +1,130 @@
+{
+  "app": {
+    "bundleName": "com.example.stylemigration",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {
+    "default": {
+      "network": {
+        "cleartextTraffic": true
+      }
+    }
+  },
+  "module": {
+    "package": "com.example.stylemigration",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.stylemigration.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.INTERNET"
+      },
+      {
+        "name": "ohos.permission.SET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.GET_NETWORK_INFO"
+      },
+      {
+        "name": "ohos.permission.WRITE_MEDIA"
+      },
+      {
+        "name": "ohos.permission.READ_MEDIA"
+      },
+      {
+        "name": "ohos.permission.CAMERA"
+      },{
+        "name": "ohos.permission.MICROPHONE"
+      },{
+        "name": "ohos.permission.LOCATION"
+      }
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "visible": true,
+        "name": "com.example.stylemigration.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.stylemigration.LandscapeAbility",
+        "icon": "$media:icon",
+        "description": "$string:landscapeability_description",
+        "label": "$string:entry_LandscapeAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.stylemigration.VangoghAbility",
+        "icon": "$media:icon",
+        "description": "$string:vangoghability_description",
+        "label": "$string:entry_VangoghAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.stylemigration.TakePhotoAbility",
+        "icon": "$media:icon",
+        "description": "$string:takephotoability_description",
+        "label": "$string:entry_TakePhotoAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.stylemigration.TheoryAbility",
+        "icon": "$media:icon",
+        "description": "$string:theoryability_description",
+        "label": "$string:entry_TheoryAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "orientation": "unspecified",
+        "name": "com.example.stylemigration.VersionAbility",
+        "icon": "$media:icon",
+        "description": "$string:versionability_description",
+        "label": "$string:entry_VersionAbility",
+        "type": "page",
+        "launchType": "standard"
+      }
+    ],
+    "metaData": {
+      "customizeData": [
+        {
+          "name": "hwc-theme",
+          "value": "androidhwext:style/Theme.Emui.NoTitleBar"
+        }
+      ]
+    }
+  }
+}

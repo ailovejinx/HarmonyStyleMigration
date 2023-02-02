@@ -1,0 +1,76 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_LandscapeAbility",
+      "value": "entry_LandscapeAbility"
+    },
+    {
+      "name": "landscapeability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "landscapeability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_VangoghAbility",
+      "value": "entry_VangoghAbility"
+    },
+    {
+      "name": "vangoghability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "vangoghability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TakePhotoAbility",
+      "value": "entry_TakePhotoAbility"
+    },
+    {
+      "name": "takephotoability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "takephotoability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_TheoryAbility",
+      "value": "entry_TheoryAbility"
+    },
+    {
+      "name": "theoryability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "theoryability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "entry_VersionAbility",
+      "value": "entry_VersionAbility"
+    },
+    {
+      "name": "versionability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "versionability_HelloWorld",
+      "value": "Hello World"
+    }
+  ]
+}
